@@ -1,0 +1,12 @@
+#include<stdio.h>
+float multiply(float a,float b)
+{
+    return a*b ;
+}
+    int main()
+{
+    float a=2.12,b=3.88,product;
+    product=multiply(a,b);
+    printf("product of entered numbers is:%.3f",product);
+    return 0;
+}
