@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    float p=1,r=1,t=1;
+    float SI=(p*t*r/100);
+    printf("simple interest=%f\n",SI);
+    return 0;
+}
